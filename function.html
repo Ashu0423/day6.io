@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>find Odd or Even number </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script>
+            function findOddEven(){
+                var num = document.getElementById('num').value;
+                if ( num % 2 == 0) {
+                    document.getElementById('result').innerHTML = num + ' is an Even number';
+                }else{
+                    document.getElementById('result').innerHTML = num + ' is an Odd number';
+                }
+            }    
+            let show=function(num1){
+                var num1 = document.getElementById('num1').value;
+                if ( num1 % 2 == 0) {
+                    document.getElementById('check').innerHTML = num1 + ' is an Even number';
+                }else{
+                    document.getElementById('check').innerHTML = num1 + ' is an Odd number';
+                }
+            }
+            
+            let show1=(function(){
+                var num2 = document.getElementById('num2').value;
+ 
+                if ( num2 % 2 == 0) {
+                    document.getElementById('output').innerHTML = num2 + ' is an Even number';
+                }else{
+                    document.getElementById('output').innerHTML = num2 + ' is an Odd number';
+                }
+                
+            } )();   
+
+            let show2=()=>{
+                var num3 = document.getElementById('num3').value;
+ 
+                 if ( num3 % 2 == 0) {
+                    return (num2 + ' is an Even number'); 
+                 }else{
+                    return (num2 + ' is an Odd number');    
+                }   
+            }
+        </script>
+    </head>
+    <body>
+        <h2> To find Odd or Even number!</h2>
+        <form method="post">
+            Enter a number:[Named Function] <br> <input type="number" id="num" name="num" min="0" />
+            <input type="button" value="Check" onclick="findOddEven()" name="find" />
+            <div style="margin-top: 10px;" id="result"></div>
+        </form><br>
+
+        <form method="post">
+            Enter a number:[Anonymous Function] <br> <input type="number" id="num1" name="num1" min="0" />
+            <input type="button" value="Check" onclick="show(num1)" name="find" />
+            <div style="margin-top: 10px;" id="check"></div>
+        </form><br>
+        
+        <form method="post">
+            Enter a number:[Immediate Invoke Function] <br> <input type="number" id="num2" name="num2" min="0" />
+            <input type="button" value="Check" onclick="function();" name="find" />
+            <div style="margin-top: 10px;" id="output"></div>
+        </form><br>
+
+        <form method="post">
+            Enter a number:[Arrow Function] <br> <input type="number" id="num3" name="num3" min="0" />
+            <input type="button" value="Check" onclick="show2()" name="find" />
+            <div style="margin-top: 10px;" id="show22"></div>
+        </form><br>
+    </body>
+</html>

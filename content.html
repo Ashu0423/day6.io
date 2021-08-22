@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Content Changer</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <style>
+            button{
+                width: 110px;
+                height: 55px;
+                background-color: white;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                border-radius: 15px;
+                box-shadow: none;
+                border-color: white;
+                cursor: pointer;
+            }
+            body{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                background-color: whitesmoke;
+                padding-left: 50px;
+            }
+            #btn1{
+                background-color: tomato;
+                color: white;
+            }
+            #btn2{
+                background-color: rgb(252, 252, 252);
+                color: black;
+            }
+            #btn3{
+                background-color: skyblue;
+                color: black;
+            }
+            #btn4{
+                background-color: steelblue;
+                color: white;
+            }
+            p{
+                text-align:justify;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <button id="btn1" onclick='document.getElementById("menu1").innerHTML="hypertext markup language."'>HTML</button>
+        <button id="btn2" onclick='document.getElementById("menu1").innerHTML="cascading stylesheet."'>CSS</button>
+        <button id="btn3" onclick='document.getElementById("menu1").innerHTML="bootstrap is easier."'>Bootstrap</button>
+        <button id="btn4" onclick='document.getElementById("menu1").innerHTML="javascript for animation."'>Javascript</button>
+        
+        <p id="menu1"></p>
+        
+    </body>
+</html>

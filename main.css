@@ -1,0 +1,30 @@
+
+#container {
+    float: left;
+    margin-left: 600px;
+    height: 80px;
+    width: 130px;
+    margin-top: 300px;
+    background-color:white;
+}
+
+#button {
+    background-color: white;
+    border-color: white;
+    text-align: center;
+    text-transform: uppercase;
+    float: right;
+    margin-top: 310px;
+    margin-right: 650px;
+    width: 100px;
+    height: 50px;
+    border-top-left-radius: 25px;
+    cursor: pointer;
+    border-bottom-right-radius: 25px;
+    box-shadow: rgb(136, 133, 133);
+    border-color: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: rgb(240, 235, 228);
+}

@@ -1,0 +1,59 @@
+body{
+    margin-left: 18px;
+    margin-right: 18px;
+}
+.viewbar{
+    background-color: rgb(231, 248, 196);
+    height: 60px;
+    width: 411px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-left:0px;
+    text-align: right;
+    padding-right:4px;
+    overflow: hidden;
+}
+#myBtn1{
+    color: rgb(5, 5, 5);
+    background-color: rgb(151, 214, 209);
+    height:65px;
+    width: 80px;
+    cursor: pointer;
+    margin-left: 0px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#myBtnc{
+    color: black;
+    background-color:rgb(144, 153, 231);
+    height:65px;
+    width: 80px;
+    cursor: pointer;
+    margin-left: 0px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#myBtncal{
+    color: black;
+    background-color:rgb(93, 212, 82);
+    height:65px;
+    width: 80px;
+    cursor: pointer;
+    margin-left: 0px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#myBtns{
+    color: white;
+    background-color:rgb(241, 9, 9);
+    height:65px;
+    width: 80px;
+    cursor: pointer;
+    margin-left: 0px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold; 
+}
